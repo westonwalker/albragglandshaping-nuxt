@@ -8,7 +8,7 @@
       <div class="py-20 bg-gray-50">
         <div class="max-w-6xl mx-auto px-8 lg:px-4">
           <div class="flex flex-wrap items-center -mx-4">
-            <div class="mb-12 md:mb-0 w-full md:w-1/2 px-4">
+            <div class="mb-12 lg:mb-0 w-full lg:w-1/3 px-4">
               <div class="max-w-lg">
                 <span class="text-orange-500 font-bold">About Us</span>
                 <h2 class="mb-6 text-4xl lg:text-5xl font-bold font-heading">Central Illinois Landscaping</h2>
@@ -16,13 +16,13 @@
                 <p class="text-gray-500 leading-loose">Offering a wide variety of services, from constructing new lawns to correcting poor drainages, Al Bragg Co. offers free on-site estimates to clients who value skills that can only be acquired with decades of experience. Residential and commercial clients alike trust Al Bragg for jobs of all sizes and budgets. </p>
               </div>
             </div>
-            <div class="flex flex-wrap items-center w-full md:w-1/2 md:px-4">
-              <div class="mb-6 w-full md:w-1/2 px-3">
-                <img class="mb-6 w-full h-64 object-cover rounded-lg" src="/erosion-finished.jpg" alt="">
-                <img class="w-full h-64 object-cover rounded-lg" src="/backhoe-4.jpg" alt="">
+            <div class="flex flex-wrap items-center w-full lg:w-2/3 lg:px-4">
+              <div class="mb-6 w-full lg:w-1/2 px-3">
+                <img class="mb-6 w-full h-64 lg:h-80 object-cover rounded-lg" src="/erosion-finished.jpg" alt="">
+                <img class="w-full h-64 lg:h-80 object-cover rounded-lg" src="/backhoe-4.jpg" alt="">
               </div>
-              <div class="w-full md:w-1/2 px-3">
-                <img class="w-full h-64 object-cover rounded-lg" src="/backhoe-2.jpg" alt="">
+              <div class="w-full lg:w-1/2 px-3">
+                <img class="w-full h-64 lg:h-80 object-cover rounded-lg" src="/backhoe-2.jpg" alt="">
               </div>
             </div>
           </div>
@@ -68,19 +68,21 @@
             <p class="text-gray-500 leading-loose">Check out what we have been working on recently.</p>
           </div>
           <div class="flex flex-wrap md:mb-8 -mx-4 justify-center">
-            <div class="w-full md:w-1/2 lg:w-1/4 mb-8 md:mb-0 px-4">
-              <div class="relative mx-auto h-64 w-full rounded-lg">
+            <div class="w-full md:w-2/5 mb-8 md:mb-0 px-4">
+              <div class="relative mx-auto h-96 lg:h-96 w-full rounded-lg mb-10">
+                <h2 class="text-center text-xl text-bold text-black mb-2">Trailer Park Erosion</h2>
                 <img class="relative h-full w-full rounded-lg object-cover border-4 border-black" src="/erosion-project.jpg" alt="">
               </div>
-              <div class="flex items-center justify-center mt-2">
+              <div class="flex items-center justify-center">
                 <a class="inline-block py-2 px-4 border-2 bg-orange-500 text-white hover:bg-orange-600 transition duration-200 rounded-l-xl rounded-t-xl font-bold leading-loose" href="#">View Project</a>
               </div>
             </div>
-            <div class="w-full md:w-1/2 lg:w-1/4 mb-8 md:mb-0 px-4">
-              <div class="relative mx-auto h-64 w-full rounded-lg">
+            <div class="w-full md:w-2/5 mb-8 md:mb-0 px-4">
+              <div class="relative mx-auto h-96 lg:h-96 w-full rounded-lg mb-10">
+                <h2 class="text-center text-xl text-bold text-black mb-2">Railroad Renovation</h2>
                 <img class="relative h-full w-full rounded-lg object-cover border-4 border-black" src="/railroad-project.jpg" alt="">
               </div>
-              <div class="flex items-center justify-center mt-2">
+              <div class="flex items-center justify-center">
                 <a class="inline-block py-2 px-4 border-2 bg-orange-500 text-white hover:bg-orange-600 transition duration-200 rounded-l-xl rounded-t-xl font-bold leading-loose" href="#">View Project</a>
               </div>
             </div>
@@ -97,23 +99,14 @@
     <section id="contact">
       <div class="py-20 bg-gray-50">
         <div class="max-w-6xl mx-auto px-8 lg:px-4">
-          <div class="mb-8">
-            <h2 class="text-4xl lg:text-5xl font-bold font-heading">Get a Quote Today</h2>
+          <div class="mb-6">
+            <h2 class="text-4xl lg:text-5xl font-bold font-heading mb-2">Get a Quote Today</h2>
             <p class="text-gray-500 leading-loose max-w-md">For any inquiries, questions or commendations, please call: 309.224.9310 or fill out the following form</p>
           </div>
           <div class="flex flex-wrap">
             <div class="w-full lg:w-1/2 mb-16 lg:mb-0 lg:pr-6">
               <div class="max-w-lg">
                 <form action="">
-                  <div class="mb-4 text-sm">
-                    <span class="mr-4 font-semibold">Quotes and Inquiries</span>
-                    <label class="mr-4">
-
-                    </label>
-                    <label>
-
-                    </label>
-                  </div>
                   <div class="mb-4">
                     <input class="w-full p-4 text-sm font-semibold leading-none bg-white rounded outline-none" type="text" placeholder="Name">
                   </div>
