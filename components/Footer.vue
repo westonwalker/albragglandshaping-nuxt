@@ -8,7 +8,7 @@
               <Logo />
             </a>
           </div>
-          <div class="mb-5 w-full lg:w-1/5">
+          <div class="mb-5 w-full lg:w-1/5 lg:pl-6">
             <p class="text-gray-400 leading-loose">Trusted landscaping for over 40 years in Peoria, Fulton, Tazewell, and Woodford counties.</p>
           </div>
           <div class="w-full lg:w-3/5 flex flex-col flex-wrap lg:justify-end">

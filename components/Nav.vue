@@ -16,7 +16,7 @@
       <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
         <li>
           <!-- active = text-orange-500 -->
-          <NuxtLink class="text-sm text-gray-400 hover:text-gray-500" v-bind:class="{ 'text-orange-500': $route.path == '/' }" to="/">Home</NuxtLink>
+          <NuxtLink class="text-sm text-gray-400 hover:text-orange-500" v-bind:class="{ 'text-orange-500': $route.path == '/' }" to="/">Home</NuxtLink>
         </li>
         <li class="text-gray-800">
           <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
@@ -24,7 +24,7 @@
           </svg>
         </li>
         <li>
-          <NuxtLink class="text-sm text-gray-400 hover:text-gray-500" to="#about">About Us</NuxtLink>
+          <NuxtLink class="text-sm text-gray-400 hover:text-orange-500" to="#about">About Us</NuxtLink>
         </li>
         <li class="text-gray-800">
           <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
@@ -32,7 +32,7 @@
           </svg>
         </li>
         <li>
-          <NuxtLink class="text-sm text-gray-400 hover:text-gray-500" to="#services">Services</NuxtLink>
+          <NuxtLink class="text-sm text-gray-400 hover:text-orange-500" to="#services">Services</NuxtLink>
         </li>
         <li class="text-gray-800">
           <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
@@ -40,7 +40,7 @@
           </svg>
         </li>
         <li>
-          <NuxtLink class="text-sm text-gray-400 hover:text-gray-500" v-bind:class="{ 'text-orange-500': $route.path == '/projects' }" to="#projects">Projects</NuxtLink>
+          <NuxtLink class="text-sm text-gray-400 hover:text-orange-500" v-bind:class="{ 'text-orange-500': $route.path == '/projects' }" to="#projects">Projects</NuxtLink>
         </li>
         <li class="text-gray-800">
           <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
@@ -48,7 +48,7 @@
           </svg>
         </li>
         <li>
-          <NuxtLink class="text-sm text-gray-400 hover:text-gray-500" v-bind:class="{ 'text-orange-500': $route.path == '/testimonials' }" to="#projects">Testimonials</NuxtLink>
+          <NuxtLink class="text-sm text-gray-400 hover:text-orange-500" v-bind:class="{ 'text-orange-500': $route.path == '/testimonials' }" to="#projects">Testimonials</NuxtLink>
         </li>
       </ul>
       <NuxtLink class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-50 text-base text-orange-500 font-bold rounded-l-xl rounded-t-xl transition duration-200" to="#contact">

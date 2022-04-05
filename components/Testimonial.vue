@@ -1,6 +1,6 @@
 <template>
-  <div class="py-20 bg-gray-50 radius-for-skewed">
-    <div class="max-w-6xl mx-auto px-4">
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-8 lg:px-4">
       <div class="mx-auto py-10 bg-white shadow rounded">
         <div class="max-w-5xl p-4 flex flex-wrap justify-center items-center mx-auto">
 
@@ -10,14 +10,14 @@
               <path d="M31.0396 16.2648C30.0746 14.5508 28.4852 13.3018 26.5638 12.749C25.7757 12.522 24.9875 12.4069 24.2212 12.4069C23.0373 12.4069 22.0491 12.6775 21.2831 13.0088C22.0215 10.3053 23.7955 5.6405 27.3298 5.11517C27.6571 5.0665 27.9249 4.82986 28.0146 4.51131L28.7869 1.74875C28.8521 1.51512 28.8135 1.26505 28.6802 1.06231C28.5473 0.859563 28.3331 0.724288 28.0928 0.691393C27.8323 0.655812 27.5664 0.637686 27.3026 0.637686C23.0608 0.637686 18.8599 5.06516 17.0869 11.4046C16.0466 15.1238 15.7415 20.7154 18.305 24.2356C19.739 26.2046 21.8319 27.2566 24.5243 27.3613C24.5354 27.3616 24.5461 27.362 24.5575 27.362C27.8796 27.362 30.8261 25.1244 31.7224 21.9211C32.2571 20.0061 32.0147 17.9975 31.0396 16.2648Z" fill="currentColor"></path>
             </svg>
             <h3 class="mb-6 text-lg md:text-xl lg:text-2xl font-bold font-heading">{{ review }}</h3>
-            <p class="mb-6 text-base sm:text-lg font-semibold">{{ reviewer }}</p>
-            <div class="inline-flex w-full justify-center">
+            <div class="mb-6 inline-flex w-full justify-center">
               <Star />
               <Star />
               <Star />
               <Star />
               <Star />
             </div>
+            <p class="text-base sm:text-lg font-semibold">{{ reviewer }}</p>
           </div>
         </div>
       </div>
